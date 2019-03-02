@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Crystal</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <div id="game-name" class="container">
+        <h1>Crystal Collector</h1>
+    </div>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total
+            score.</p>
+        <p>You win the game by matching your total score to the random number. You lost the game if your total score
+            goes above
+            the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+    </div>
+
+
+    <div id="targetNum"></div>
+
+    <div id="w-counter">
+        <h3>Wins: </h3>
+    </div>
+    <div id="l-counter">
+        <h3>Losses: </h3>
+    </div>
+    <img id="purpGem" class="gem" src="https://jooinn.com/images/gem-1.png" alt="gem-1">
+
+    <img id="greenGem" class="gem" src="http://clipart-library.com/data_images/363890.png" alt="gem-2">
+
+    <img id="blueGem" class="gem" src="https://img.itch.zone/aW1hZ2UvNzU0MzgvMzQ5NTY3LnBuZw==/original/j4T9IH.png" alt="gem-3">
+
+    <img id="yellowGem" class="gem" src="https://memegene.net/sites/default/files/wallpaper/gems-clipart/290751/gems-clipart-yellow-gem-290751-7995651.png"
+        alt="gem-4">
+
+    <div id="total">Your total score is: </div>
+
+    <div id="totalNum"></div>
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>

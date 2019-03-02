@@ -1,0 +1,63 @@
+#game-name {
+    background-color: blueviolet;
+    width: 400px;
+    text-align: center;
+}
+
+#instructions {
+    background-color: brown;
+    text-align: center;
+}
+
+#targetNum {
+    width: 200px;
+    height: 100px;
+    background-color: seagreen;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+#w-counter {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 10px 10px 0px 10px;
+    font-size: 35px;
+}
+
+#l-counter {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin: 10px 10px 0px 10px;
+    font-size: 35px;
+}
+
+
+.gem {
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+}
+
+#total {
+    width: 200px;
+    height: 30px;
+    background-color: orangered;
+    text-align: center;
+    margin: 10px;
+}
+
+#totalNum {
+    width: 200px;
+    height: 100px;
+    background: orangered;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/black-wallpaper-10.jpg);
+}

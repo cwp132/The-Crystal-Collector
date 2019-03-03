@@ -7,6 +7,8 @@
 #instructions {
     background-color: brown;
     text-align: center;
+    width: 600px;
+
 }
 
 #targetNum {
@@ -18,12 +20,26 @@
     margin: 10px;
 }
 
+#wins-text {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background: aqua;
+}
+
 #w-counter {
     width: 100px;
     height: 50px;
     background-color: aqua;
     margin: 10px 10px 0px 10px;
     font-size: 35px;
+}
+
+#losses-text {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: aqua;
 }
 
 #l-counter {
